@@ -111,6 +111,7 @@ Use the sample users below in two browser windows or two devices.
 
 - add TURN servers for reliable calls across networks
 - use HTTPS in production
+- set `CLIENT_URL` in `backend/.env` or your Render environment to your deployed frontend URL, for example `https://videocall-tau-eight.vercel.app`
 - replace in-memory storage with a real database before production
 - validate and rate-limit APIs
 - add message read status, presence, and notifications
