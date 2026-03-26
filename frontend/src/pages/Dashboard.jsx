@@ -6,7 +6,7 @@ import { UserList } from "../components/UserList";
 import { VideoCallPanel } from "../components/VideoCallPanel";
 import { AuthContext } from "../context/AuthContext";
 
-const SOCKET_URL = "http://localhost:5000";
+const SOCKET_URL = "https://videocall-iv2h.onrender.com";
 const rtcConfig = {
   iceServers: [{ urls: "stun:stun.l.google.com:19302" }]
 };
